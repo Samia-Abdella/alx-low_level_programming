@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - Entry point prints the statement in the quotes
  *
  * Return: return a zero if successful non-zero otherwise
