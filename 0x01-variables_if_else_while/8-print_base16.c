@@ -12,7 +12,6 @@ int main(void)
 
 	for (i = 48; i < 58; i++)
 		putchar(i);
-	
 	for (c = 'a'; c < 'g'; c++)
 		putchar(c);
 	putchar('\n');
