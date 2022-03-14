@@ -2,7 +2,7 @@
 
 /**
  * main -prints the alphabet in lower case then upper case
- * Return - 0 (Always successful)
+ * Return: 0 (Always Success)
  */
 int main(void)
 {
