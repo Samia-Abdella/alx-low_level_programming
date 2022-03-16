@@ -1,4 +1,5 @@
 #include "_putchar.c"
+#include <string.h>
 
 /**
  * main - prints _putchar followed by a new line
@@ -9,7 +10,7 @@ int _putchar(char c);
 
 char* printing (char* string)
 {
-	for (char c; c < strlen(string); c++)
+	for (int c; c < strlen(string); c++)
 	{
 		_putchar(c);
 	}
