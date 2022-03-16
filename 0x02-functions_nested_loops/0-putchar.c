@@ -10,11 +10,13 @@ int _putchar(char c);
 
 char* printing (char* string)
 {
+	char* result;
 	for (int c; c < strlen(string); c++)
 	{
-		_putchar(c);
+		result = _putchar(c);
 	}
-	_putchar('\n');
+	result = result + _putchar('\n');
+	return (result);
 }
 
 int main(void)
