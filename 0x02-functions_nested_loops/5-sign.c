@@ -7,5 +7,5 @@
 
 int print_sign(int n)
 {
-	return (c > 0);
+	return (n > 0);
 }
