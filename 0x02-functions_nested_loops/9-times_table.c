@@ -1,31 +1,32 @@
 #include "main.h"
 
-/* times_table - prints the time table from 0 to 9
+/**
+ * times_table - prints the time table from 0 to 9
  * Return: nothing
  */
 
 void times_table(void)
 {
-	int i, j;
+	int i, j, k;
 
 	for (i = 0; i < 10; i++)
 	{
 		for (j = 0; j < 10; j++)
 		{
-			int product = i * j;
+			k  = i * j;
 
 			_putchar(',');
 			_putchar(' ');
 
-			if (product < 10)
+			if (k < 10)
 			{
 				_putchar(' ');
-				_putchar(product);
+				_putchar(k);
 			}
 			else
 			{
-				_putchar(product / 10);
-				_putchar(product % 10);
+				_putchar(k / 10);
+				_putchar(k % 10);
 			}
 			_putchar('\n');
 		}
