@@ -8,7 +8,8 @@ void times_table(void)
 	{
 		for (j = 0; j < 10; j++)
 		{
-			_putchar(i * j);
+			int produt = i * j;
+			_putchar(product);
 			_putchar(' ');
 			_putchar('\n');
 		}
