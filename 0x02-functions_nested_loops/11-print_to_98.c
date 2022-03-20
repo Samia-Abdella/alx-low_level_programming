@@ -15,7 +15,7 @@ void print_to_98(int n)
 	{
 		for ( i = 0; i <= 98; i++)
 		{
-			prinf(i);
+			printf(i);
 		}
 		_putchar('\n');
 	}
