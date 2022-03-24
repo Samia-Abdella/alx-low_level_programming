@@ -6,7 +6,7 @@
  * @n: the value to get the time table for
  */
 
-void print_time_table (int n)
+void print_times_table (int n)
 {
 	int i, j, k;
 
